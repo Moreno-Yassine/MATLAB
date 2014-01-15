@@ -6,8 +6,8 @@ Ir=fft2(ir);
 Ir=fftshift(Ir);
 
 h=zeros(512);
-for i=255:259
-    for j=255:259
+for i=256:258
+    for j=256:258
         h(i,j)=1/9;
     end
 end
